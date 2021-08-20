@@ -1,19 +1,28 @@
 
-import React from 'react';
+import React, { useEffect } from 'react';
 import { connect } from 'react-redux';
 import { selectUser } from "../../actions";
 import './Welcome.css';
-const Welcome = () => {
+import db from '../../firebase';
+import { useHistory } from "react-router-dom";
+const Welcome = (props) => {
+  let history = useHistory()
+  useEffect(() => {
+    if (props.booked == null) {
+      history.push('./selectHostel')
+    }
+  })
   return (
     <>
       <div className="main">
-        <h1>Welcome Alvin kumar</h1>
+        <h1>Welcome {props?.user?.displayName}</h1>
         <div className="paragraph">
           <h4>You have already booked a room</h4>
           <h3>Your room details are as follows:</h3>
 
-          <h4>Hostel No.  <span>B4</span></h4>
-          <h4>Room no. <span>8</span></h4>
+          <h4>Hostel No.  <span>{props?.booked?.HostelNo}</span></h4>
+          <h4>Room no. <span>{props?.booked?.RoomNo}</span></h4>
+          <h4>Floor <span>{props?.booked?.floorNo}</span></h4>
         </div>
 
       </div>
@@ -26,12 +35,9 @@ const Welcome = () => {
 const mapStateToProps = (state) => {
 
   return {
-    user: state.selectedUser
+    user: state.selectedUser,
+    booked: state.booked,
   }
 }
-const mapActionsToProps = () => {
-  return {
-    selectUser
-  }
-}
-export default connect(mapStateToProps, mapActionsToProps)(Welcome);
+
+export default connect(mapStateToProps, { selectUser })(Welcome);

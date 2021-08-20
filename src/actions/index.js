@@ -4,3 +4,9 @@ export const selectUser = (user) => {
     payload: user,
   }
 }
+export const setBooked = (data) => {
+  return {
+    type: 'SET_BOOKED',
+    payload: data,
+  }
+}

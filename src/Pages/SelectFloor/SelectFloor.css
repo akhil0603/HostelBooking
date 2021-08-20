@@ -43,8 +43,16 @@ justify-content: space-around;
 .dropdown{
   justify-content: center;
   align-content: center;
-  margin-left: 650px;
+  margin-left: 630px;
   background:lightgray;
-  border-radius: 5px;
+  border-radius: 10px;
   padding-left: 10px;
+}
+
+.bookroom  {
+
+  margin-top: 20px;
+  margin-left: 630px;
+  border-radius: 5px;
+  padding: 5px;
 }

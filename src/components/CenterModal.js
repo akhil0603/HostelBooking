@@ -11,7 +11,7 @@ const CenterModal = (props) => {
       centered
       dialogAs={"modal"}
     >
-      <div className="row">
+      <div className="row" style={{width:"1700px",marginTop:"140px"}}>
 
         <div className="flex4 col-md-4">
           <div className="img"><img src={cancel} onClick={props.onHide} /></div>

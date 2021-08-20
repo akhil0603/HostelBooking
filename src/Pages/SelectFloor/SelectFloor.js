@@ -92,7 +92,7 @@ const SelectFloor = (props) => {
       </div>
       <div>
         {
-          room && <button
+          room && <button className="bookroom"
 
             onClick={() => { bookRoom() }}
 

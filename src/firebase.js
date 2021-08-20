@@ -1,14 +1,14 @@
 import firebase from "firebase/app";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyA-1yjN-SZOBOaL1RR_TYZoqRJcxqAnk-0",
-  authDomain: "hostelbooking-14dde.firebaseapp.com",
-  databaseURL: "https://hostelbooking-14dde.firebaseio.com",
-  projectId: "hostelbooking-14dde",
-  storageBucket: "hostelbooking-14dde.appspot.com",
-  messagingSenderId: "740993244488",
-  appId: "1:740993244488:web:90095b285b497c7edee77d",
-  measurementId: "G-2XL8LNEX4E"
+ 
+  databaseURL: "https://hostelbooking-bf96a.firebaseio.com",
+  apiKey: "AIzaSyDlG2GDbBCs4UG58HzIGC-rYHT3UoqdQRA",
+  authDomain: "hostelbooking-bf96a.firebaseapp.com",
+  projectId: "hostelbooking-bf96a",
+  storageBucket: "hostelbooking-bf96a.appspot.com",
+  messagingSenderId: "961677005462",
+  appId: "1:961677005462:web:efb0c2accc671d5d68a8b7"
 };
 const firebaseApp = firebase.initializeApp(firebaseConfig);
 const db = firebaseApp.firestore();

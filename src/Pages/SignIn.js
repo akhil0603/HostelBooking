@@ -41,7 +41,7 @@ const SignIn = (props) => {
   })
   return (
     <div style={{ marginTop: "150px" }}>
-      <h1 style={{ marginLeft: "630px" }} >Hostel Allocation</h1>
+      <h1 style={{ marginLeft: "460px" }} >Hostel Allocation</h1>
       <StyledFirebaseAuth uiConfig={uiConfig} firebaseAuth={auth} />
     </div>
 
