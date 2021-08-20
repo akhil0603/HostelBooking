@@ -15,7 +15,10 @@ const Welcome = (props) => {
   return (
     <>
       <div className="main">
-        <h1>Welcome {props?.user?.displayName}</h1>
+        <div >
+            <p style={{fontSize:30}}>Welcome {props?.user?.displayName}</p>
+        </div>
+       
         <div className="paragraph">
           <h4>You have already booked a room</h4>
           <h3>Your room details are as follows:</h3>

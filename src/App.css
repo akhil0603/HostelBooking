@@ -8,3 +8,11 @@ header{
   float: right;
   height: 10px;
 }
+.logout {
+
+      margin-right: 30px;
+      border-radius: 15px;
+      padding: 5px;
+      color: red;    
+
+}
