@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/HostelBooking/static/css/main.f30fb27f.chunk.css",
+    "main.js": "/HostelBooking/static/js/main.290eb125.chunk.js",
+    "main.js.map": "/HostelBooking/static/js/main.290eb125.chunk.js.map",
+    "runtime-main.js": "/HostelBooking/static/js/runtime-main.ef9415f2.js",
+    "runtime-main.js.map": "/HostelBooking/static/js/runtime-main.ef9415f2.js.map",
+    "static/css/2.0984b3ae.chunk.css": "/HostelBooking/static/css/2.0984b3ae.chunk.css",
+    "static/js/2.ff8c6659.chunk.js": "/HostelBooking/static/js/2.ff8c6659.chunk.js",
+    "static/js/2.ff8c6659.chunk.js.map": "/HostelBooking/static/js/2.ff8c6659.chunk.js.map",
+    "static/js/3.f86b3068.chunk.js": "/HostelBooking/static/js/3.f86b3068.chunk.js",
+    "static/js/3.f86b3068.chunk.js.map": "/HostelBooking/static/js/3.f86b3068.chunk.js.map",
+    "index.html": "/HostelBooking/index.html",
+    "static/css/2.0984b3ae.chunk.css.map": "/HostelBooking/static/css/2.0984b3ae.chunk.css.map",
+    "static/css/main.f30fb27f.chunk.css.map": "/HostelBooking/static/css/main.f30fb27f.chunk.css.map",
+    "static/js/2.ff8c6659.chunk.js.LICENSE.txt": "/HostelBooking/static/js/2.ff8c6659.chunk.js.LICENSE.txt",
+    "static/media/boy.fd600ec8.PNG": "/HostelBooking/static/media/boy.fd600ec8.PNG",
+    "static/media/cancel.b5067d92.PNG": "/HostelBooking/static/media/cancel.b5067d92.PNG",
+    "static/media/girl.888adde3.PNG": "/HostelBooking/static/media/girl.888adde3.PNG",
+    "static/media/logo.97ec3af4.gif": "/HostelBooking/static/media/logo.97ec3af4.gif",
+    "static/media/logo2.0bb5c811.png": "/HostelBooking/static/media/logo2.0bb5c811.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ef9415f2.js",
+    "static/css/2.0984b3ae.chunk.css",
+    "static/js/2.ff8c6659.chunk.js",
+    "static/css/main.f30fb27f.chunk.css",
+    "static/js/main.290eb125.chunk.js"
+  ]
+}
